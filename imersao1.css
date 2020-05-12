@@ -1,0 +1,35 @@
+body {
+    background-image:url(https://cdn.pixabay.com/photo/2013/10/13/20/36/star-195187_1280.jpg);
+    background-size: auto 100vh;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;    
+    height: 100vh;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: burlywood;
+} 
+
+.menu {
+    background-color: rgb(43, 14, 70);
+}
+.site-subtitle,
+.site-title {
+    text-align: center;
+}
+
